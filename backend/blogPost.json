@@ -1,0 +1,94 @@
+[
+    {
+        "id": 1,
+        "creatorID": 1, 
+        "creatorUsername": "User1", 
+        "title": "Blog post 1",
+        "content": "This is a sample blogpost text for testing 1",
+        "dateCreated": "22-1-2024",
+        "likes": 0,
+        "comments": [
+            {
+                "id": 1,
+                "creatorID:": 2,
+                "creatorUsername": "User2",
+                "text": "This is a sample comment",
+                "dateCreated": "22-1-2024",
+                "likes": 2
+            }
+        ]
+    },
+
+    {
+        "id": 2,
+        "creatorID": 2, 
+        "creatorUsername": "User2", 
+        "title": "Blog post 1",
+        "content": "This is a sample blogpost text for testing 1",
+        "dateCreated": "22-1-2024",
+        "likes": 0,
+        "comments": [
+            {
+                "id": 3,
+                "creatorID:": 1,
+                "creatorUsername": "User1",
+                "text": "This is a sample comment",
+                "dateCreated": "22-1-2024",
+                "likes": 1
+            }
+        ]
+    },
+
+    {
+        "id": 3,
+        "creatorID": 2, 
+        "creatorUsername": "User2", 
+        "title": "Blog post 1",
+        "content": "This is a sample blogpost text for testing 1",
+        "dateCreated": "22-1-2024",
+        "likes": 0,
+        "comments": []
+    },
+
+    {
+        "id": 4,
+        "creatorID": 3, 
+        "creatorUsername": "User3", 
+        "title": "Blog post 1",
+        "content": "This is a sample blogpost text for testing 1",
+        "dateCreated": "22-1-2024",
+        "likes": 2,
+        "comments": [ 
+            {
+                "id": 2,
+                "creatorID:": 1,
+                "creatorUsername": "User1",
+                "text": "This is a sample comment 1",
+                "dateCreated": "22-1-2024",
+                "likes": 1
+            }
+        ]
+    },
+
+
+    {
+        "id": 5,
+        "creatorID": 5, 
+        "creatorUsername": "User5", 
+
+        "title": "Blog post 1",
+        "content": "This is a sample blogpost text for testing 1",
+        "dateCreated": "22-1-2024",
+        "likes": 1,
+        "comments": [
+            {
+                "id": 4,
+                "creatorID:": 3,
+                "creatorUsername": "User3",
+                "text": "This is a sample comment",
+                "dateCreated": "22-1-2024",
+                "likes": 2
+            }
+        ]
+    }
+]
